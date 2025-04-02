@@ -10,7 +10,8 @@
 Необходимо выполнить в терминале следующие команды для запуска проекта в контейнерах:
 
 - cd docker - войти в директорию докера,
-- docker-compose up -d - поднять контейнеры. 
+- docker-compose up -d - поднять контейнеры,
+- docker-compose exec php-fpm bash - зайти в контейнер php-fpm.
 
 Все необходимые зависимости, конфигурации и подключения прописаны в Dockerfile, nginx.conf и docker-compose.yml.
 
